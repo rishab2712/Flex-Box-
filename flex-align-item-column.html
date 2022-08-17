@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>flex-align-item-column</title>
+
+    <style type="text/css">
+
+      body {
+        margin: 550;
+        padding: 760;
+        font-family: verdana;
+      }
+
+      .main-container {
+        border: 4px solid #826a98;
+        
+        display: flex; /* block level flex container */
+        flex-direction: column;
+        height: 600px;
+        
+        /* align-items: stretch; */  /* default value for algn-iitems is stretch */
+        /* align-items: flex-start; */
+        /* align-items: flex-end; */
+        /* align-items: center; */
+        align-items: baseline;
+      }
+
+      .item {
+        color: #ffffff;
+        font-size: 1rem;
+        padding: 0.75rem;
+        text-align: center;
+      }
+
+      .item-1 {
+        background-color:#DDA0DD;
+        padding-bottom: 2rem;
+        font-family: cursive;
+      }
+
+      .item-2 {
+        background-color:#BF94E4;
+        padding-bottom: 3rem;
+        padding-right: 5rem;
+      }
+
+      .item-3 {
+        background-color:#734F96;
+        font-size: 3rem;
+      }
+
+      .item-4 {
+        background-color:#FBAED2;
+        font-size: 8px;
+      }
+
+      .item-5 {
+        background-color:#EE82EE;
+      }
+      
+      .item-6 {
+        background-color:#ADE4CA;
+        padding-bottom: 6rem;
+        padding-right: 8rem;
+      }
+
+      .item-7 {
+        background-color:#A6D5AE;
+      }
+
+      .item-8 {
+        background-color:#8FBC8E;
+      }
+
+      .item-9 {
+        background-color: #64A466;
+      }
+      
+      .item-10 {
+        background-color:#2E8B56;
+      }
+
+    </style>
+
+  </head>
+
+  <body bgcolor="#1100404"> <center>
+
+    <div class="main-container"><CENter>
+      <div class="item item-1">R1</div>
+      <div class="item item-2">R2</div>
+      <div class="item item-3">R3</div>
+      <div class="item item-4">R4</div>
+      <div class="item item-5">R5</div>
+      <div class="item item-6">R6</div>
+      <div class="item item-7">R7</div>
+      <div class="item item-8">R8</div>
+      <div class="item item-9">R9</div>
+      <div class="item item-10">R10</div>
+    </div></center>
+    
+  </body>
+  
+</html>

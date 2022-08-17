@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>flex-demo-item-height-dialog-card</title>
+
+    <style type="text/css">
+
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: verdana;
+      }
+
+      .dialog-container {
+        background-color: #a6ea28;
+        border: 4px solid #1e6e9c;
+
+        display: flex; /* block level flex container */
+      }
+
+      .dialog {
+        color: #c9b3b3;
+        font-size: 1rem;
+        padding: 0.75rem;
+        
+        display: flex;
+        flex-direction: column;
+      }
+
+      .dialog-1 {
+        background-color:#172203;
+      }
+
+      .dialog-2 {
+        background-color:#e81be8;
+      }
+
+      .dialog-header {
+        font-size: 2rem;
+      }
+
+      .dialog-footer {
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+        background-color: #ee94ee8a;
+        font-size: 0.5em;
+        padding: 1.5em;
+        text-align: right;
+      }
+
+      .dialog-body {
+        /* flex-grow: 1; */
+        flex: 1;
+      }
+
+    </style>
+
+  </head>
+
+  <body bgcolor="#000330">
+
+    <div class="dialog-container">
+
+      <div class="dialog dialog-1">
+
+        <header class="dialog-header"> Information</header>
+
+        <section class="dialog-body">
+          hellow
+        </section>
+
+        <footer class="dialog-footer"> &copy; Rishab 2712 </footer>
+
+      </div>
+
+      <div class="dialog dialog-2">
+
+        <header class="dialog-header">Rajput</header>
+
+        <section class="dialog-body">
+          1912
+          <ul>
+            <li>1227</li>
+          </ul>  
+                  2719
+        </section>
+
+        <footer class="dialog-footer"> &copy; Rishab 2719 </footer>
+
+      </div>
+
+    </div>
+    
+  </body>
+  
+</html>

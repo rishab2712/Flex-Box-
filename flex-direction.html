@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>flex-direction</title>
+
+    <style type="text/css">
+
+      body {
+        margin:  200;
+        padding: 200;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      }
+
+      .main-container {
+        border: 10px solid #e89999;
+        /* display: flex; */ /* block level flex container */
+        display: inline-flex; /* inline flex container */
+        
+        /* flex-direction: row; */ /* left to right */
+        /*flex-direction: row-reverse;*/  /* right to left */
+         /*flex-direction: column;/* top to bottom */
+        flex-direction: column-reverse; /* bottom to top */
+      }
+
+      .item {
+        color: #ed6e6e;
+        font-size: 1rem;
+        padding: 0.75rem;
+        text-align: center;
+      }
+
+      .item-1 {
+        background-color:#de06de;
+      }
+
+      .item-2 {
+        background-color:#1b1222;
+      }
+
+      .item-3 {
+        background-color:#57525b;
+      }
+
+      .item-4 {
+        background-color:#f00c76;
+      }
+
+      .item-5 {
+        background-color:#160116;
+      }
+      
+      .item-6 {
+        background-color:#44f1a1;
+      }
+
+      .item-7 {
+        background-color:#09a0e1;
+      }
+
+      .item-8 {
+        background-color:#062dd9;
+      }
+
+      .item-9 {
+        background-color: #690303;
+      }
+      
+      .item-10 {
+        background-color:#caed07;
+      }
+
+    </style>
+
+  </head>
+
+  <body bgcolor="grey">
+
+    <center><div class="main-container">
+      <div class="item item-1">H</div>
+      <div class="item item-2">N</div>
+      <div class="item item-3">I</div>
+      <div class="item item-4">S</div>
+      <div class="item item-5">B</div>
+      <div class="item item-6">A</div>
+      <div class="item item-7">H</div>
+      <div class="item item-8">S</div>
+      <div class="item item-9">I</div>
+      <div class="item item-10">R</div>
+    </div></center>
+    
+  </body>
+  
+</html>

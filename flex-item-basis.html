@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>3.4-flex-item-basis</title>
+
+    <style type="text/css">
+
+      body {
+        margin: 770;
+        padding: 660;
+        font-family: verdana;
+      }
+
+      .main-container {
+        border: 4px solid #440e76;
+        display: flex; /* block level flex container */
+      }
+
+      .item {
+        color: #ffffff;
+        font-size: 1rem;
+        padding: 0.75rem;
+        text-align: center;
+        /* width: 200px; */ /* Instead of assigning width to flex-item, its advisable to always use and apply `flex-basis` property to set initial width */
+      }
+
+      .item-1 {
+        background-color:#095def;
+      }
+
+      .item-2 {
+        background-color:#54178a;
+      }
+
+      .item-3 {
+        background-color:#79678a;
+        flex-basis: 60%;
+      }
+
+      .item-4 {
+        background-color:#f70d7a;
+        flex-basis: 6%;
+      }
+
+      .item-5 {
+        background-color:#7ef028;
+        flex-basis: 300px;
+      }
+      
+     </style>
+
+  </head>
+
+  <body bgcolor="#543332">
+
+    <div class="main-container">
+      <div class="item item-1">11</div>
+      <div class="item item-2">12</div>
+      <div class="item item-3">13</div>
+      <div class="item item-4">14</div>
+      <div class="item item-5">15</div>
+     </div>
+    
+  </body>
+  
+</html>

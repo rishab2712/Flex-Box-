@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>flex-item-shrink</title>
+
+    <style type="text/css">
+
+      body {
+        margin: 220;
+        padding: 210;
+        font-family: verdana;
+      }
+
+      .main-container {
+        border: 4px solid #28094598;
+        display: flex; /* block level flex container */
+      }
+
+      .item {
+        color: #ffffff;
+        font-size: 1rem;
+        padding: 0.75rem;
+        text-align: center;
+        flex-shrink: 3; /* default 1, so all items will shrink */
+        /* flex-shrink: 0; */ /* No items will shrink - will get scrollbar */
+        
+        width: 200px;
+      }
+
+      .item-1 {
+        background-color:#ec2aec;
+      }
+
+      .item-2 {
+        background-color:#2d094d;
+        /*flex-shrink: 2; /* shrink relatively twice / 2 times than other items */
+      }
+
+      .item-3 {
+        background-color:#734F96;
+        /*flex-shrink: 4; /* shrink relatively 4 times than other items */
+      }
+
+      .item-4 {
+        background-color:#FBAED2;
+      }
+
+      .item-5 {
+        background-color:#EE82EE;
+      }
+      
+      
+    </style>
+
+  </head>
+
+  <body bgcolor="#55568">
+
+    <div class="main-container">
+      <div class="item item-1">Hyy</div>
+      <div class="item item-2">hellow</div>
+      <div class="item item-3">World</div>
+      <div class="item item-4">Yes</div>
+      <div class="item item-5">No</div>
+    </div>
+    
+  </body>
+  
+</html>

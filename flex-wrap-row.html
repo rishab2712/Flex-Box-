@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>flex-wrap-row</title>
+
+    <style type="text/css">
+
+      body {
+        margin: 800;
+        padding: 800;
+        font-family: verdana;
+      }
+
+      .main-container {
+        border: 4px solid #ac74e0;
+        display: flex; /* block level flex container */
+
+        /* flex-wrap: nowrap; */ /* default is row nowrap */
+        /* flex-wrap: wrap; */ /* wraps overflow items to bottom/next row */
+        flex-wrap: wrap-reverse; /* wraps overflow items to top row */
+      }
+
+      .item {
+        color: #e34f4f;
+        font-size: 1rem;
+        padding: 0.75rem;
+        text-align: center;
+      }
+
+      .item-1 {
+        background-color:#DDA0DD;
+      }
+
+      .item-2 {
+        background-color:#BF94E4;
+      }
+
+      .item-3 {
+        background-color:#734F96;
+      }
+
+      .item-4 {
+        background-color:#c9166a;
+      }
+
+      .item-5 {
+        background-color:#0cce9d;
+      }
+      
+      .item-6 {
+        background-color:#4fd20e;
+      }
+
+      .item-7 {
+        background-color:#eaea14;
+      }
+
+      .item-8 {
+        background-color:#f1bca2;
+      }
+
+      .item-9 {
+        background-color: #45050c;
+      }
+      
+      .item-10 {
+        background-color:#0ade66;
+      }
+
+    </style>
+
+  </head>
+
+  <body bgcolor="PINK">
+
+   <center>
+    <p> Flex Wrap Row </p>
+    <div class="main-container">
+      <div class="item item-1">R</div>
+      <div class="item item-2">I</div>
+      <div class="item item-3">S</div>
+      <div class="item item-4">H</div>
+      <div class="item item-5">A</div>
+      <div class="item item-6">B</div>
+      <div class="item item-7">S</div>
+      <div class="item item-8">I</div>
+      <div class="item item-9">N</div>
+      <div class="item item-10">H</div>
+    </div></center></MARquee>
+    
+  </body>
+  
+</html>

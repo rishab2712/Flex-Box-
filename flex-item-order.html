@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>flex-item-order</title>
+
+    <style type="text/css">
+
+      body {
+        margin: 780;
+        padding: 770;
+        font-family: verdana;
+      }
+
+      .main-container {
+        border: 4px solid #5907a5;
+        display: flex; /* block level flex container */
+      }
+
+      .item {
+        color: #ffffff;
+        font-size: 1rem;
+        padding: 0.75rem;
+        text-align: center;
+      }
+
+      .item-1 {
+        order:1;
+        background-color:#e60de6;
+      }
+
+      .item-2 {
+        order:1;
+        background-color:#8510ec;
+        
+      }
+
+      .item-3 {
+        background-color:#0594d1;
+      }
+
+      .item-4 {
+        background-color:#1f010f;
+      }
+
+      .item-5 {
+        background-color:#7b407b;
+        /*order: 2;  higher order number will aligned to extreme right or at the end */
+      }
+      
+      .item-6 {
+        background-color:#12a460;
+      }
+
+      .item-7 {
+        background-color:#b57f13;
+      }
+
+      .item-8 {
+        order: 3;
+        background-color:#c3ec23;
+      }
+
+      .item-9 {
+        background-color: #64A466;
+        order: -1; /* higher order number will aligned to extreme right or at the end */
+      }
+      
+      .item-10 {
+        background-color:#02418a;
+      }
+
+    </style>
+
+  </head>
+
+  <body bgcolor="#477557">
+
+    <div class="main-container">
+      <div class="item item-1">1</div>
+      <div class="item item-2">2</div>
+      <div class="item item-3">3</div>
+      <div class="item item-4">4</div>
+      <div class="item item-5">5</div>
+      <div class="item item-6">6</div>
+      <div class="item item-7">7</div>
+      <div class="item item-8">8</div>
+      <div class="item item-9">9</div>
+      <div class="item item-10">10</div>
+    </div>
+    
+  </body>
+  
+</html>
